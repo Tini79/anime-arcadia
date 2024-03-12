@@ -1,4 +1,5 @@
 <?php
+
 // Kredensial palsu untuk demonstrasi
 $dummyUsername = 'putri';
 $dummyPassword = '123';
@@ -12,7 +13,7 @@ if (isset($_POST['btnLogin'])) {
     // Periksa apakah input cocok dengan kredensial palsu
     if ($username === $dummyUsername && $password === $dummyPassword) {
         // Redirect ke halaman sukses atau lakukan tindakan lainnya
-        header('Location: success.php');
+        header('Location: ../index.php');
         exit();
     } elseif ($username !== $dummyUsername) {
         // Redirect kembali ke halaman login dengan pesan kesalahan untuk username yang salah
