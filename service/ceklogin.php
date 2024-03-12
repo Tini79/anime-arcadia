@@ -1,5 +1,4 @@
 <?php
-
 // Kredensial palsu untuk demonstrasi
 $dummyUsername = 'putri';
 $dummyPassword = '123';
