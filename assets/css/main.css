@@ -44,7 +44,7 @@ nav {
   background-color: var(--primary-color);
   padding: 16px 100px;
   position: fixed;
-  z-index: 9;
+  z-index: 0;
   animation: top 0.4s ease-in;
 }
 
@@ -170,6 +170,7 @@ input {
 .btn {
   color: var(--primary-color);
   background-color: var(--secondary-color);
+  margin-bottom: 20px;
 }
 
 a.btn:hover {
